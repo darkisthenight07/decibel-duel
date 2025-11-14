@@ -16,6 +16,8 @@ This implementation is designed to be run in a Google Colab environment, leverag
 * **Checkpoint System**: Automatic saving and loading of model checkpoints to resume training seamlessly.
 * **Google Colab Ready**: Includes necessary setup for mounting Google Drive to access datasets.
 
+---
+
 ### 🗝️ Key Optimizations
 * Precomputed Mel spectograms for faster processing.
 * Increased Batch Size for stable training.
@@ -68,7 +70,7 @@ Conv2d (256 → 1)
 Output: Wasserstein Distance (scalar)
 ```
 
-### WGAN-GP Training Details
+### 3. WGAN-GP Training Details 🏃💨
 
 * Gradient Penalty: Enforces Lipschitz constraint for stable training (weight: 10.0)
 * Critic Updates: 5 critic updates per generator update
